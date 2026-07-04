@@ -260,7 +260,7 @@ The project generates:
 - Customer Segment Distribution
 - Streamlit Dashboard
 
-*(Add screenshots of your dashboard and plots in the `screenshots` folder and reference them here.)*
+
 <img width="920" height="793" alt="Screenshot 2026-07-04 220035" src="https://github.com/user-attachments/assets/b483e840-6bb6-4db3-87e3-c83392291eff" />
 
 <img width="938" height="545" alt="image" src="https://github.com/user-attachments/assets/e226a580-cc3d-4574-b205-a2d5056e8df2" />
