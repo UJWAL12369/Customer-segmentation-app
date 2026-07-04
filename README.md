@@ -1,6 +1,6 @@
-# 🛍️ Customer Segmentation using K-Means Clustering(http://localhost:8501/)
+#  Customer Segmentation using K-Means Clustering(http://localhost:8501/)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project performs **Customer Segmentation** using the **K-Means Clustering** algorithm. The objective is to group customers with similar purchasing behavior, demographics, and online shopping habits into meaningful customer segments. These segments can help businesses develop targeted marketing strategies, improve customer retention, and maximize sales.
 
@@ -37,7 +37,7 @@ The dataset contains customer demographic information, purchasing history, campa
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Pandas
@@ -52,7 +52,7 @@ The dataset contains customer demographic information, purchasing history, campa
 
 ---
 
-## 📊 Feature Engineering
+##  Feature Engineering
 
 Several new features were created to improve clustering performance.
 
@@ -84,7 +84,7 @@ Calculated using the customer registration date.
 
 ---
 
-## 📈 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 The project includes several visualizations such as:
 
@@ -100,7 +100,7 @@ The project includes several visualizations such as:
 
 ---
 
-## ⚙️ Data Preprocessing
+## Data Preprocessing
 
 The selected features were standardized using **StandardScaler** before applying K-Means.
 
@@ -116,7 +116,7 @@ Selected Features:
 
 ---
 
-## 🤖 K-Means Clustering
+##  K-Means Clustering
 
 The Elbow Method was used to determine an appropriate number of clusters.
 
@@ -130,7 +130,7 @@ Each customer was assigned to one of six customer segments.
 
 ---
 
-## 📉 PCA Visualization
+##  PCA Visualization
 
 Principal Component Analysis (PCA) was used to reduce the feature space into two dimensions for visualization.
 
@@ -138,7 +138,7 @@ The clusters were visualized using a scatter plot.
 
 ---
 
-## 🏷️ Customer Segments
+##  Customer Segments
 
 The generated clusters were interpreted and assigned business-friendly names.
 
@@ -153,7 +153,7 @@ The generated clusters were interpreted and assigned business-friendly names.
 
 ---
 
-## 💾 Model Saving
+## Model Saving
 
 The trained K-Means model and StandardScaler were saved using Joblib.
 
@@ -166,7 +166,7 @@ These files are later used in the Streamlit application.
 
 ---
 
-## 🌐 Streamlit Application
+##  Streamlit Application
 
 A Streamlit web application was developed that allows users to:
 
@@ -190,12 +190,12 @@ Example Output:
 ```
 Predicted Segment
 
-⭐ VIP Customer
+ VIP Customer
 ```
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Customer-Segmentation/
@@ -212,7 +212,7 @@ Customer-Segmentation/
 
 ---
 
-## 🚀 Installation
+## Installation
 
 Clone the repository
 
@@ -234,7 +234,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Run the Streamlit Application
+## Run the Streamlit Application
 
 ```bash
 streamlit run app.py
@@ -248,7 +248,7 @@ http://localhost:8501
 
 ---
 
-## 📷 Sample Outputs
+##  Sample Outputs
 
 The project generates:
 
@@ -268,7 +268,7 @@ The project generates:
 
 ---
 
-## 💡 Business Insights
+## Business Insights
 
 The customer segments can be used to:
 
@@ -281,7 +281,7 @@ The customer segments can be used to:
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Determine the optimal number of clusters using the Silhouette Score.
 - Add interactive filters and analytics to the Streamlit dashboard.
@@ -291,7 +291,7 @@ The customer segments can be used to:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Ujjwal Mittal**
 
